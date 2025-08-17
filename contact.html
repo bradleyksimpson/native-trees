@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Native Forest Co</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9MVJYX7Q2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-Y9MVJYX7Q2');
+    </script>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h2>Native Forest Co</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="suitability.html" class="nav-link">Land Suitability</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Get in Touch</h1>
+                <p class="page-subtitle">Ready to transform your unproductive land? Let's discuss your native forest restoration project.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <!-- Contact Form -->
+                    <div class="contact-form-container">
+                        <h2>Send us a Message</h2>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="farmName">Farm/Property Name</label>
+                                <input type="text" id="farmName" name="farmName">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="location">Property Location</label>
+                                <input type="text" id="location" name="location" placeholder="e.g., Waikato, Canterbury, Bay of Plenty">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="landSize">Approximate Land Size for Planting</label>
+                                <select id="landSize" name="landSize">
+                                    <option value="">Select size range</option>
+                                    <option value="under-1ha">Under 1 hectare</option>
+                                    <option value="1-5ha">1-5 hectares</option>
+                                    <option value="5-10ha">5-10 hectares</option>
+                                    <option value="10-50ha">10-50 hectares</option>
+                                    <option value="over-50ha">Over 50 hectares</option>
+                                    <option value="unsure">Not sure yet</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="interest">Primary Interest</label>
+                                <select id="interest" name="interest">
+                                    <option value="">Select your main interest</option>
+                                    <option value="erosion-control">Erosion control</option>
+                                    <option value="carbon-credits">Carbon credits</option>
+                                    <option value="biodiversity">Biodiversity enhancement</option>
+                                    <option value="land-value">Increase land value</option>
+                                    <option value="water-quality">Water quality improvement</option>
+                                    <option value="subsidies">Government subsidies</option>
+                                    <option value="general-info">General information</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="timeframe">Expected Timeframe</label>
+                                <select id="timeframe" name="timeframe">
+                                    <option value="">When would you like to start?</option>
+                                    <option value="immediate">Within 3 months</option>
+                                    <option value="6-months">3-6 months</option>
+                                    <option value="year">Within a year</option>
+                                    <option value="exploring">Just exploring options</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Tell us about your land, goals, or any specific questions you have..."></textarea>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="newsletter" id="newsletter">
+                                    <span class="checkmark"></span>
+                                    Subscribe to our newsletter for native forest tips and updates
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn-primary">Send Message</button>
+                        </form>
+
+                        <div class="form-success" id="formSuccess">
+                            <h3>Thank you for your message!</h3>
+                            <p>We'll get back to you within 24 hours to discuss your native forest restoration project.</p>
+                        </div>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <h2>Other Ways to Reach Us</h2>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p><strong>0800 NATIVE</strong></p>
+                                <p>Mon-Fri 8am-6pm</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p><strong>info@nativeforest.co.nz</strong></p>
+                                <p>We respond within 24 hours</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h3>Office</h3>
+                                <p><strong>Auckland, New Zealand</strong></p>
+                                <p>Site visits nationwide</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">🌐</div>
+                            <div class="contact-details">
+                                <h3>Online Assessment</h3>
+                                <p>Use our <a href="suitability.html">interactive map tool</a> to get an initial assessment of your land's suitability.</p>
+                            </div>
+                        </div>
+
+                        <div class="emergency-contact">
+                            <h3>Urgent Land Issues?</h3>
+                            <p>For urgent erosion or environmental concerns, call us directly at <strong>021 NATIVE</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h3 class="faq-question">How much does native forest restoration cost?</h3>
+                        <div class="faq-answer">
+                            <p>Costs vary by site conditions, species selection, and scale. Many projects qualify for government subsidies that can cover 50-80% of costs. We provide free initial assessments and detailed quotes.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3 class="faq-question">How long does it take to see results?</h3>
+                        <div class="faq-answer">
+                            <p>Fast-growing natives like manuka and kanuka provide ground cover within 1-2 years. Erosion control benefits are immediate, while full forest establishment takes 10-15 years.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3 class="faq-question">Do you provide ongoing maintenance?</h3>
+                        <div class="faq-answer">
+                            <p>Yes, we offer maintenance packages including weed control, replacement planting, and monitoring for the first 3-5 years to ensure establishment success.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3 class="faq-question">Can I still graze livestock in planted areas?</h3>
+                        <div class="faq-answer">
+                            <p>Trees need protection for the first few years, but silvopasture systems can incorporate native trees with grazing. We can design systems that work with your farming operation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Native Forest Co</h3>
+                    <p>Transforming New Zealand's landscape, one farm at a time.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="suitability.html">Land Assessment</a></li>
+                        <li><a href="#">Forest Planning</a></li>
+                        <li><a href="#">Native Planting</a></li>
+                        <li><a href="#">Maintenance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>Email: info@nativeforest.co.nz</li>
+                        <li>Phone: 0800 NATIVE</li>
+                        <li>Auckland, New Zealand</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Native Forest Co. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="contact.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
