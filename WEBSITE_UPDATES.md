@@ -6,19 +6,19 @@
 All placeholder images have been replaced with professional Unsplash photos:
 
 #### Homepage (index.html)
-- **Hero Image**: Beautiful native forest landscape showing lush vegetation and ecosystem
-- **URL**: `https://plus.unsplash.com/premium_photo-1667867672626-3570589f7c29`
-- **Alt Text**: "Lush native New Zealand forest with mature native trees and ferns creating a natural ecosystem"
+- **Hero Image**: Native Forest Landscape with lush New Zealand forest ecosystem (user-specified)
+- **URL**: `https://plus.unsplash.com/premium_photo-1754262041922-cc7898089b37`
+- **Alt Text**: "Native Forest Landscape with lush New Zealand forest ecosystem"
 
 #### About Page (about.html)
-- **Story Image**: Conservation team planting native seedlings
-- **URL**: `https://images.unsplash.com/photo-1574263867128-9c1b5b1d3ecf`
-- **Alt Text**: "Conservation team planting native seedlings in a forest restoration project"
+- **Story Image**: Team planting native trees (user-specified)
+- **URL**: `https://plus.unsplash.com/premium_photo-1679366305583-17d6e894d54c`
+- **Alt Text**: "Team planting native trees in restoration project"
 
 #### Team Photos (about.html)
 1. **Richard Suhr** (Founder & Strategic Advisor)
-   - **URL**: `https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d`
-   - Professional businessman headshot
+   - **URL**: `https://media.licdn.com/dms/image/v2/C5603AQFDcgtxE1VqIw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516502548853?e=2147483647&v=beta&t=rbwqU5lRDFsL3GFWgJtQ8pQWSRoLp-duNdOX5ETaMrA`
+   - LinkedIn profile photo (as specifically requested)
 
 2. **James Robertson** (Agricultural Partnerships)
    - **URL**: `https://images.unsplash.com/photo-1472099645785-5658abf4ff4e`
